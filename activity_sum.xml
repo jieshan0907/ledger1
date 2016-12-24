@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.hw3.ledgeractivity.SumActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:text="New Text"
+        android:id="@+id/name_id"
+        android:layout_weight="1" />/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:id="@+id/day_id"
+        android:layout_weight="1" />/>
+
+
+    <TextView
+        android:id="@+id/amout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MONEY" />
+
+    <TextView
+        android:layout_width="9dp"
+        android:layout_height="wrap_content"
+        android:text="NOTE"
+        android:id="@+id/note_id"
+        android:layout_weight="2" />/>
+
+</LinearLayout>
